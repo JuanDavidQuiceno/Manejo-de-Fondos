@@ -10,7 +10,7 @@
             "type": "dart",
             "program": "lib/main_development.dart",
             // "flutterMode": "debug",
-            "flutterMode": "release",
+            // "flutterMode": "release",
             "args": [
                 // "--flavor",
                 // "development",

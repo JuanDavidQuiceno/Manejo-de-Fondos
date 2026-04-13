@@ -37,21 +37,16 @@ class _FundsView extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocListener<FundsCubit, FundsState>(
       listenWhen: (prev, curr) =>
-          curr.errorMessage != null && prev.errorMessage != curr.errorMessage ||
           curr.successMessage != null &&
-              prev.successMessage != curr.successMessage,
+          prev.successMessage != curr.successMessage,
       listener: (context, state) {
-        final message = state.errorMessage ?? state.successMessage;
-        if (message == null) return;
-        final isError = state.errorMessage != null;
+        if (state.successMessage == null) return;
         ScaffoldMessenger.of(context)
           ..hideCurrentSnackBar()
           ..showSnackBar(
             SnackBar(
-              content: Text(message),
-              backgroundColor: isError
-                  ? Colors.red.shade700
-                  : Colors.green.shade700,
+              content: Text(state.successMessage!),
+              backgroundColor: Colors.green.shade700,
               behavior: SnackBarBehavior.floating,
             ),
           );
@@ -106,7 +101,7 @@ class _FundsTab extends StatelessWidget {
 
         return Center(
           child: ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 760),
+            constraints: const BoxConstraints(maxWidth: 1200),
             child: ListView(
               padding: EdgeInsets.symmetric(
                 horizontal: hPadding,
@@ -172,7 +167,14 @@ class _HistoryTab extends StatelessWidget {
         if (state.isLoading) {
           return const Center(child: CircularProgressIndicator());
         }
-        return TransactionsHistoryView(transactions: state.transactions);
+        return Center(
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 1200),
+            child: TransactionsHistoryView(
+              transactions: state.transactions,
+            ),
+          ),
+        );
       },
     );
   }

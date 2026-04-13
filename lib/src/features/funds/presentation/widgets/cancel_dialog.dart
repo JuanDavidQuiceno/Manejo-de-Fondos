@@ -82,6 +82,48 @@ class CancelDialog extends StatelessWidget {
                 ),
                 const SizedBox(height: 24),
                 BlocBuilder<FundsCubit, FundsState>(
+                  buildWhen: (prev, curr) =>
+                      prev.errorMessage != curr.errorMessage,
+                  builder: (context, state) {
+                    if (state.errorMessage == null) {
+                      return const SizedBox.shrink();
+                    }
+                    return Padding(
+                      padding: const EdgeInsets.only(bottom: 12),
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 12,
+                          vertical: 10,
+                        ),
+                        decoration: BoxDecoration(
+                          color: Colors.red.shade50,
+                          borderRadius: BorderRadius.circular(8),
+                          border: Border.all(color: Colors.red.shade200),
+                        ),
+                        child: Row(
+                          children: [
+                            Icon(
+                              Icons.error_outline,
+                              color: Colors.red.shade700,
+                              size: 18,
+                            ),
+                            const SizedBox(width: 8),
+                            Expanded(
+                              child: Text(
+                                state.errorMessage!,
+                                style: TextStyle(
+                                  color: Colors.red.shade700,
+                                  fontSize: 13,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    );
+                  },
+                ),
+                BlocBuilder<FundsCubit, FundsState>(
                   builder: (context, state) {
                     return Row(
                       children: [

@@ -122,7 +122,20 @@ class _SubscribeDialogState extends State<SubscribeDialog> {
                           .toList(),
                     ),
                   ),
-                  const SizedBox(height: 8),
+                  // Error inline
+                  BlocBuilder<FundsCubit, FundsState>(
+                    buildWhen: (prev, curr) =>
+                        prev.errorMessage != curr.errorMessage,
+                    builder: (context, state) {
+                      if (state.errorMessage == null) {
+                        return const SizedBox.shrink();
+                      }
+                      return Padding(
+                        padding: const EdgeInsets.only(bottom: 12),
+                        child: _ErrorBanner(message: state.errorMessage!),
+                      );
+                    },
+                  ),
                   BlocBuilder<FundsCubit, FundsState>(
                     builder: (context, state) {
                       return CustomButtonV2(
@@ -150,6 +163,39 @@ class _SubscribeDialogState extends State<SubscribeDialog> {
       fundId: widget.fund.id,
       amount: amount,
       notificationMethod: _notification,
+    );
+  }
+}
+
+class _ErrorBanner extends StatelessWidget {
+  const _ErrorBanner({required this.message});
+
+  final String message;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+      decoration: BoxDecoration(
+        color: Colors.red.shade50,
+        borderRadius: BorderRadius.circular(8),
+        border: Border.all(color: Colors.red.shade200),
+      ),
+      child: Row(
+        children: [
+          Icon(Icons.error_outline, color: Colors.red.shade700, size: 18),
+          const SizedBox(width: 8),
+          Expanded(
+            child: Text(
+              message,
+              style: TextStyle(
+                color: Colors.red.shade700,
+                fontSize: 13,
+              ),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
