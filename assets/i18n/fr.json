@@ -1,0 +1,593 @@
+{
+    "alertExit": {
+        "title": "Êtes-vous sûr de vouloir quitter l'application ?"
+    },
+    "date": {
+        "of": "de",
+        "last": "Dernier",
+        "next": "Prochain",
+        "today": "Aujourd'hui",
+        "yesterday": "Hier",
+        "tomorrow": "Demain",
+        "days": {
+            "sunday": "Dimanche",
+            "monday": "Lundi",
+            "tuesday": "Mardi",
+            "wednesday": "Mercredi",
+            "thursday": "Jeudi",
+            "friday": "Vendredi",
+            "saturday": "Samedi"
+        },
+        "weeks": {
+            "1": "Lundi",
+            "2": "Mardi",
+            "3": "Mercredi",
+            "4": "Jeudi",
+            "5": "Vendredi",
+            "6": "Samedi",
+            "7": "Dimanche"
+        },
+        "months": {
+            "january": "Janvier",
+            "february": "Février",
+            "march": "Mars",
+            "april": "Avril",
+            "may": "Mai",
+            "june": "Juin",
+            "july": "Juillet",
+            "august": "Août",
+            "september": "Septembre",
+            "october": "Octobre",
+            "november": "Novembre",
+            "december": "Décembre"
+        }
+    },
+    "errors": {
+        "buttonAccept": "Accepter",
+        "buttonCancel": "Annuler",
+        "buttonRetry": "Réessayer",
+        "onButtonClose": "Aller à la page de connexion",
+        "connection": {
+            "title": "Erreur de connexion !",
+            "message": "Vérifiez votre connexion internet et réessayez."
+        },
+        "server": {
+            "title": "Erreur de serveur !",
+            "message": "Une erreur s'est produite sur le serveur, veuillez réessayer plus tard."
+        },
+        "unknown": {
+            "title": "Erreur inconnue !",
+            "message": "Une erreur inconnue s'est produite, veuillez réessayer plus tard."
+        },
+        "empty": {
+            "title": "Erreur !",
+            "message": "Aucune donnée disponible."
+        },
+        "location": {
+            "title": "Erreur de localisation !",
+            "message": "Impossible d'obtenir votre emplacement, vérifiez que le GPS est activé."
+        },
+        "permission": {
+            "error": "Erreur lors du chargement de l'image",
+            "title": "Erreur de permissions !",
+            "message": "Impossible d'obtenir les permissions nécessaires, veuillez réessayer.",
+            "messagePhoto": "Autorisez l'accès à l'appareil photo pour prendre des photos ou accéder à la galerie, allez dans les paramètres pour activer les permissions et poursuivre le processus.",
+            "messageFile": "Autorisez l'accès aux fichiers pour sélectionner une image, allez dans les paramètres pour activer les permissions et poursuivre le processus.",
+            "messageLocation": "Vous devez activer les permissions de localisation"
+        }
+    },
+    "language": {
+        "title": "Sélectionnez votre langue",
+        "message": "Sélectionnez la langue que vous souhaitez utiliser dans l'application",
+        "name": {
+            "en": "Anglais",
+            "es": "Espagnol",
+            "fr": "Français"
+        },
+        "buttonCancel": "Annuler"
+    },
+    "incomeOption": {
+        "title": "Bienvenue dans l'application !",
+        "login": "Se connecter",
+        "register": "S'inscrire"
+    },
+    "validate": {
+        "required": "Champ requis",
+        "email": "Entrez votre adresse e-mail",
+        "emailFormat": "Entrez une adresse e-mail valide",
+        "password": "Entrez votre mot de passe",
+        "passwordEmpty": "Le mot de passe ne peut pas être vide",
+        "passwordLength": "Le mot de passe doit comporter au moins 6 caractères",
+        "confirmPassword": "Confirmez votre mot de passe",
+        "confirmPasswordNotMatch": "Les mots de passe ne correspondent pas"
+    },
+    "generic": {
+        "ups": "Oups !",
+        "brilliant": "Génial !",
+        "seconds": "Sec",
+        "skip": "Passer",
+        "continue": "Continuer",
+        "next": "Suivant",
+        "accept": "Accepter",
+        "start": "Démarrer",
+        "back": "Retour",
+        "cancel": "Annuler",
+        "delete": "Supprimer",
+        "onGoSettings": "Aller aux paramètres",
+        "onAddDocument": "Ajouter un document",
+        "onAddLogo": "Ajouter un logo",
+        "onAddImage": "Ajouter une image",
+        "onRetry": "Réessayer",
+        "atenction": "Attention !",
+        "understood": "Compris",
+        "onSaveChange": "Enregistrer les modifications",
+        "errors": {
+            "title": "Oups !",
+            "message": "Nous avons rencontré des problèmes avec le serveur, veuillez réessayer plus tard",
+            "message2": "Oups ! Quelque chose s'est mal passé"
+        },
+        "alert": {
+            "deleteImage": {
+                "title": "Êtes-vous sûr de vouloir supprimer cette image ?",
+                "message": "Cette action ne peut pas être annulée.",
+                "button": "Supprimer"
+            }
+        },
+        "types": {
+            "selectCurrency": "Sélectionner le type de devise"
+        }
+    },
+    "onboarding": {
+        "step1": "Ici, *vous trouverez* des services *sécurisés*.",
+        "step2": "Entreprises *vérifiées* et *sécurisées*.",
+        "step3": "Avec votre entreprise de confiance.",
+        "step4": "Bienvenue sur *l'application* !"
+    },
+    "register": {
+        "name": "Entrez votre prénom",
+        "lastName": "Entrez votre nom de famille",
+        "selectGender": "Sélectionnez votre genre",
+        "emptyGenderList": "Aucun genre disponible, vérifiez votre connexion internet ou réessayez plus tard",
+        "email": "Entrez votre adresse e-mail",
+        "password": "Entrez votre mot de passe",
+        "confirmPassword": "Confirmez votre mot de passe",
+        "prefix": "Indicatif du pays",
+        "phone": "Entrez votre numéro de téléphone",
+        "button": "S'inscrire",
+        "validate": {
+            "name": "Entrez votre prénom",
+            "lastName": "Entrez votre nom de famille",
+            "gender": "Sélectionnez votre genre",
+            "email": "Entrez votre adresse e-mail",
+            "emailFormat": "Entrez une adresse e-mail valide",
+            "password": "Entrez votre mot de passe",
+            "passwordLength": "Le mot de passe doit comporter au moins 8 caractères",
+            "confirmPassword": "Confirmez votre mot de passe",
+            "passwordNotMatch": "Les mots de passe ne correspondent pas",
+            "phone": "Entrez votre numéro de téléphone"
+        },
+        "modals": {
+            "error": {
+                "prefixPhone": "Sélectionnez l'indicatif de votre pays."
+            },
+            "succes": {
+                "title": "Inscription réussie !",
+                "message": "Vous êtes inscrit avec succès. Vous pouvez maintenant vous connecter avec votre adresse e-mail et votre mot de passe.",
+                "button": "Se connecter"
+            }
+        }
+    },
+    "login": {
+        "title": "Connexion",
+        "email": "Entrez votre adresse e-mail",
+        "password": "Entrez votre mot de passe",
+        "button": "Connexion",
+        "forgotPasswordButton": "Mot de passe oublié ?",
+        "buttonregister": "S'inscrire",
+        "validate": {
+            "email": "Entrez votre adresse e-mail",
+            "emailFormat": "Entrez une adresse e-mail valide",
+            "password": "Entrez votre mot de passe"
+        },
+        "forgotPassword": {
+            "alertBack": {
+                "title": "Êtes-vous sûr de vouloir quitter ?",
+                "message": "Si vous quittez, le processus de récupération du mot de passe sera annulé.",
+                "buttonCancel": "Annuler",
+                "buttonOk": "Oui, Annuler"
+            },
+            "sendEmail": {
+                "title": "Mot de passe oublié ?",
+                "message": "Entrez votre adresse e-mail pour recevoir un e-mail avec les instructions de récupération de votre mot de passe",
+                "labelText": "Adresse e-mail",
+                "hintText": "Entrez votre adresse e-mail",
+                "button": "Envoyer e-mail"
+            },
+            "sendCode": {
+                "title": "Entrez le code",
+                "message": "Entrez le code que nous vous avons envoyé par e-mail",
+                "labelText": "Code",
+                "hintText": "Entrez le code",
+                "resend": "Renvoyer le code",
+                "validateCode": "Valider le code",
+                "button": "Envoyer le code",
+                "validate": {
+                    "code": "Entrez le code",
+                    "codeLength": "Le code doit contenir 6 chiffres"
+                }
+            },
+            "sendNewPassword": {
+                "title": "Réinitialiser le mot de passe",
+                "message": "Entrez votre code de vérification que nous vous avons envoyé par e-mail",
+                "messageNext": "et votre nouveau mot de passe",
+                "subtitle": "Entrez votre nouveau mot de passe et sa confirmation.",
+                "labelText": "Mot de passe",
+                "hintText": "Entrez votre nouveau mot de passe",
+                "laberTextConfirm": "Confirmer le mot de passe",
+                "hintTextConfirm": "Confirmez votre nouveau mot de passe",
+                "button": "Réinitialiser le mot de passe"
+            },
+            "resetPasswordSuccess": {
+                "title": "Super !",
+                "message": "Votre mot de passe a été changé avec succès. Vous pouvez maintenant vous connecter avec votre nouveau mot de passe",
+                "button": "Connexion"
+            }
+        }
+    },
+    "dashboard": {
+        "onButtomBarHome": "Accueil",
+        "onButtomBarActivity": "Activité",
+        "onButtomBarProfile": "Profil"
+    },
+    "home": {
+        "user": {
+            "history": "Historique de recherche",
+            "result": "Résultat de recherche",
+            "noResult": "Il semble que vous n'avez pas de recherches récentes. Si vous pensez qu'il s'agit d'une erreur, réessayez.",
+            "scheduleTrip": "Planifier un voyage",
+            "errorCode": "Le code d'entreprise doit comporter au moins 10 caractères",
+            "noCompany": "Aucune entreprise trouvée avec ce code",
+            "scheduleTripDetail": {
+                "code": "Code",
+                "availableVehicles": "Véhicules disponibles",
+                "dateScheduleTrip": "Date de programmation du voyage",
+                "select": "Sélectionner",
+                "urgent": "Sélectionner pour indiquer qu'il est urgent",
+                "noUrgent": "Décocher pour indiquer que ce n'est pas urgent"
+            },
+            "search": "Rechercher une entreprise",
+            "seen": "Vu",
+            "code": "Code",
+            "availableVehicles": "Véhicules disponibles",
+            "map": {
+                "locationInitial": "Où serez-vous ?",
+                "locationFinal": "Où voulez-vous aller ?",
+                "noResult": "Aucun résultat",
+                "requested": "Demandé",
+                "scheduled": "Programmé pour",
+                "urgent": "Urgent",
+                "distance": "Distance",
+                "duration": "Durée",
+                "cost": "Coût",
+                "costCurrency": "Coût en",
+                "button": "Demander un voyage",
+                "points": {
+                    "initial": "Point de départ",
+                    "end": "Destination",
+                    "errorSearchingPlaces": "Erreur lors de la recherche des lieux",
+                    "errorGetLocation": "Impossible d'obtenir votre emplacement",
+                    "errorCalculatingRoute": "Erreur lors du calcul de l'itinéraire",
+                    "errorCreateSchedule": "Erreur lors de la programmation du voyage"
+                },
+                "alert": {
+                    "send": {
+                        "title": "Demander un voyage",
+                        "message": "Êtes-vous sûr de vouloir demander ce voyage ?",
+                        "button": "Demander"
+                    },
+                    "success": {
+                        "title": "Voyage créé",
+                        "message": "Voyage créé avec succès"
+                    }
+                }
+            }
+        },
+        "driver": {
+            "vehicleAssign": "Véhicule assigné",
+            "noSchedule": "Aucun voyage assigné",
+            "schedulesAssign": "Voyages assignés",
+            "noAssign": {
+                "title": "Vous n'êtes pas encore lié à un véhicule",
+                "description": "Pour vous lier à un véhicule, générez un code de liaison et partagez-le avec le propriétaire du véhicule.",
+                "button": "Se lier à un véhicule"
+            },
+            "errorStatusSchedule": "Nous ne pouvons pas mettre à jour l'état du voyage pour le moment"
+        },
+        "schedule": {
+            "title": "Détails du voyage",
+            "finalize": "Finaliser",
+            "waiting": "En attente",
+            "route": "En route",
+            "viewRoute": "Voir l'itinéraire sur la carte",
+            "duration": "Durée approximative",
+            "cost": "Coût",
+            "distance": "Distance",
+            "alert": {
+                "status": {
+                    "title": "État mis à jour",
+                    "message": "L'état du voyage a été mis à jour avec succès"
+                },
+                "finalize": {
+                    "title": "Finaliser le voyage",
+                    "message": "Êtes-vous sûr de vouloir finaliser ce voyage ?",
+                    "button": "Finaliser"
+                },
+                "waiting": {
+                    "title": "Mettre à jour l'état en attente",
+                    "message": "Êtes-vous sûr de vouloir mettre à jour l'état du voyage ?",
+                    "button": "Mettre à jour"
+                },
+                "route": {
+                    "title": "Mettre à jour l'état en route",
+                    "message": "Êtes-vous sûr de vouloir mettre à jour l'état du voyage ?",
+                    "button": "Mettre à jour"
+                },
+                "cancel": {
+                    "title": "Annuler le voyage",
+                    "message": "Êtes-vous sûr de vouloir annuler ce voyage ?",
+                    "button": "Annuler le voyage",
+                    "noCancel": "Ne pas annuler"
+                }
+            }
+        }
+    },
+    "activity": {
+        "title": "Activité",
+        "cost": "Coût",
+        "driver": {
+            "title": "Activité du conducteur"
+        },
+        "company": {
+            "title": "Activité de l'entreprise"
+        },
+        "noActivity": "Aucune activité récente",
+        "detail": {
+            "title": "Détails de l'activité",
+            "viewRoute": "Voir l'itinéraire",
+            "duration": "Durée approximative",
+            "cost": "Coût",
+            "distance": "Distance",
+            "buttonCancel": "Annuler le voyage",
+            "statusSchedule": "État du voyage",
+            "assingVehicle": "Attribuer un véhicule",
+            "noAvailableVehicles": "Aucun véhicule disponible",
+            "errorGetVehicles": "Erreur lors de la récupération des véhicules disponibles",
+            "errosAssignVehicle": "Erreur lors de l'attribution du véhicule",
+            "alert": {
+                "cancel": {
+                    "title": "Annuler le voyage",
+                    "message": "Êtes-vous sûr de vouloir annuler ce voyage ?",
+                    "button": "Annuler le voyage",
+                    "noCancel": "Ne pas annuler"
+                },
+                "assignVehicle": {
+                    "title": "Attribuer un véhicule",
+                    "message": "Êtes-vous sûr de vouloir attribuer ce véhicule ?",
+                    "button": "Attribuer"
+                }
+            }
+        }
+    },
+    "profile": {
+        "account":{
+            "title": "Compte",
+            "description": "Gérer les informations de votre compte",
+            "name": "Prénom",
+            "lastName": "Nom de famille",
+            "address": "Adresse",
+            "typeDocument": "Type de document",
+            "document": "Document",
+            "hintText": {
+                "name":"Entrez votre prénom",
+                "lastName":"Entrez votre nom de famille",
+                "address":"Entrez votre adresse",
+                "typeDocument":"Sélectionnez votre type de document",
+                "document":"Entrez votre document"
+            },
+            "validate": {
+                "name": "Nom requis",
+                "lastName": "Nom de famille requis",
+                "address": "Adresse requise",
+                "typeDocument": "Type de document requis",
+                "document": "Document requis"
+            },
+            "button": "Enregistrer les modifications"
+        },
+        "onSetting": {
+            "title": "Paramètres",
+            "onChangePass": {
+                "title": "Changer de mot de passe",
+                "labelPass": "Nouveau mot de passe",
+                "hintPass": "Entrez votre nouveau mot de passe",
+                "validatePass": "Mot de passe requis",
+                "validateConfirmPass": "Confirmez le mot de passe",
+                "alert": {
+                    "successMessage": "Mot de passe mis à jour"
+                }
+            },
+            "onAddAddress": "Ajouter une adresse",
+            "onPrivacy": {
+                "title": "Confidentialité",
+                "description": "Gérer les informations que vous partagez avec d'autres utilisateurs"
+            },
+            "onSecurity": {
+                "title": "Sécurité",
+                "description": "Gérer les informations de votre compte"
+            },
+            "onLogout": {
+                "title": "Déconnexion",
+                "onAlert": {
+                    "title": "Êtes-vous sûr de vouloir vous déconnecter ?",
+                    "message": "Si vous vous déconnectez, vous devrez vous reconnecter pour utiliser l'application.",
+                    "buttonCancel": "Annuler",
+                    "buttonOk": "Déconnexion"
+                }
+            }
+        },
+        "onbecomeDriver": {
+            "title": "Devenir conducteur",
+            "sendSucces": "Demande envoyée avec succès.",
+            "register": "S'inscrire",
+            "contract": {
+                "title": "Termes et conditions"
+            },
+            "documents":{
+                "license": "Permis de conduire ou document vous autorisant à conduire",
+                "onAddDocument": "Ajouter un document",
+                "onAlert":{
+                    "delete":{
+                        "title": "Êtes-vous sûr de vouloir supprimer ce document ?",
+                        "message": "Cette action est irréversible."
+                    },
+                    "load": {
+                        "message": "Erreur lors du chargement du document"
+                    }
+                }
+            }
+        },
+        "onVinculate": {
+            "title": "Me lier à un véhicule",
+            "generateCode": "Générer un code de liaison",
+            "description": "Pour vous lier à un véhicule, générez un code de liaison et partagez-le avec le propriétaire du véhicule.",
+            "code": "Code de liaison",
+            "codeDescription": "Partagez ce numéro de document et ce code avec le propriétaire du véhicule pour vous lier.",
+            "onGenerateCode": "Générer le code",
+            "button": "Générer le code",
+            "alertTitle": "Erreur lors de la génération du code"
+        },
+        "onVehicles": {
+            "title": "Mes véhicules"
+        },
+        "onCompany": {
+            "create": "Créer une entreprise",
+            "view": "Voir l'entreprise",
+            "button": "S'inscrire",
+            "selectMoney": "Sélectionnez le type de monnaie",
+            "documentDrive": "Passeport ou document vous permettant de conduire",
+            "form":{
+                "title": "Formulaire d'inscription",
+                "name": "Nom de l'entreprise",
+                "nameHintText": "Entrez le nom de l'entreprise",
+                "code": "Code de l'entreprise",
+                "codeHintText": "Code de l'entreprise",
+                "codeAlertTitle": "Code de l'entreprise",
+                "codeAlertMessage": "C'est un identifiant unique attribué à l'entreprise pour son enregistrement dans le système. Nous vérifierons s'il n'y a pas d'autres codes identiques et vous informerons en cas de duplicata lors de la finalisation du processus d'inscription.",
+                "codeValidateLength": "Le code doit contenir 10 caractères",
+                "unitMeasureHintText": "Sélectionnez l'unité de mesure",
+                "unitMeasureTitle": "Unité de mesure",
+                "currency": "Tarif",
+                "currencyHintText": "Entrez le tarif",
+                "currencyTitle": "Type de monnaie",
+                "description": "Description",
+                "descriptionHintText": "Entrez la description de l'entreprise",
+                "address": "Adresse de l'entreprise",
+                "addressHintText": "Entrez l'adresse de l'entreprise",
+                "email": "E-mail du représentant légal",
+                "emailHintText": "Entrez l'e-mail du représentant légal",
+                "phone": "Téléphone du représentant légal",
+                "phoneHintText": "Entrez le téléphone du représentant légal"
+            },
+            "alert":{
+                "succesMessage": "Demande envoyée avec succès."
+            }
+        },
+        "onChangeLanguage": "Changer de langue"
+    },
+    "company": {
+        "title": "Mes entreprises",
+        "empty": "Il semble que vous n'avez pas d'entreprises enregistrées ou nous n'avons pas pu charger correctement vos entreprises",
+        "emptyCompany": "Aucune entreprise enregistrée",
+        "error": "Erreur lors du chargement des entreprises",
+        "inactive": {
+            "title": "Entreprise inactive",
+            "subtile": "Cette entreprise n'est pas active, veuillez contacter l'administrateur."
+        },
+        "detail": {
+            "title": "Détails de l'entreprise",
+            "dataCompany": "Données de l'entreprise",
+            "vehicles": "Véhicules",
+            "alert": {
+                "change": "Avez-vous des modifications non enregistrées, voulez-vous continuer ? Cela entraînera la perte des modifications.",
+                "succes" : "Données mises à jour avec succès",
+                "errorUpdate": "Erreur lors de la mise à jour des données de l'entreprise",
+                "errorAssignDriver": "Erreur lors de l'attribution du conducteur au véhicule",
+                "errorUpdateVehicle": "Erreur lors de la mise à jour des données du véhicule"
+            },
+            "addVehicle": "Ajouter un véhicule",
+            "empty": "Il semble que vous n'avez pas de véhicules enregistrés",
+            "address": "Adresse de l'entreprise",
+            "addressHint": "Entrez l'adresse de l'entreprise",
+            "currency": "Tarif",
+            "currencyHint": "'Entrez le tarif de l'entreprise",
+            "currencyTitle": "Type de monnaie",
+            "description": "Description",
+            "descriptionHint": "Entrez la description de l'entreprise",
+            "email": "E-mail du représentant légal",
+            "emailHint": "Entrez l'e-mail du représentant légal",
+            "name": "Nom de l'entreprise",
+            "nameHint": "Entrez le nom de l'entreprise",
+            "phone": "Téléphone du représentant légal",
+            "phoneHint": "Entrez le téléphone du représentant légal",
+            "unitMeasureHint": "Sélectionnez l'unité de mesure",
+            "unitMeasureTitle": "Unité de mesure"
+        },
+        "editVehicle": {
+            "titleEdit": "Modifier le véhicule",
+            "titleAdd": "Ajouter un véhicule",
+            "brand": "Marque du véhicule",
+            "place": "Plaque d'immatriculation du véhicule",
+            "modelo": "Modèle",
+            "color": "Couleur",
+            "buttonAdd": "Ajouter",
+            "buttonEdit": "Éditer",
+            "alert": {
+                "success": "Véhicule ajouté avec succès",
+                "delete": {
+                    "title": "Êtes-vous sûr de vouloir supprimer ce véhicule ?",
+                    "message": "Cette action est irréversible."
+                }
+            }
+        },
+        "detailVehicle": {
+            "title": "Détails du véhicule",
+            "edit": "Éditer",
+            "delete": "Supprimer",
+            "document": "Document",
+            "noDocument": "Aucun document",
+            "phone": "Téléphone",
+            "noPhone": "Aucun téléphone",
+            "email": "E-mail",
+            "noEmail": "Aucun e-mail",
+            "address": "Adresse",
+            "noAddress": "Aucune adresse",
+            "gender": "Genre",
+            "noGender": "Aucun genre",
+            "noDriver": "Aucun conducteur assigné à ce véhicule, veuillez en assigner un",
+            "onAssignDriver": "Assigner un conducteur",
+            "addDriver": {
+              "update": "Mettre à jour",
+              "succes": "Conducteur assigné avec succès",
+              "document": "Document du conducteur",
+              "code": "Code de liaison"
+            },
+            "alert": {
+                "delete": "Êtes-vous sûr de vouloir supprimer ce véhicule ?",
+                "deleteDriver": "Êtes-vous sûr de vouloir supprimer le conducteur assigné ?",
+                "deleteVehicleSucces": "Véhicule supprimé avec succès",
+                "updateVehicleSucces": "Véhicule mis à jour avec succès",
+                "deleteDriverSucces": "Conducteur supprimé avec succès"
+            }
+        }
+    }
+}
+    

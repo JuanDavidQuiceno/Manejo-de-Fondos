@@ -1,0 +1,140 @@
+{
+    "alertExit": {
+        "title": "¿Seguro que quieres salir de la aplicación?"
+    },
+    "date": {
+        "of": "de",
+        "last": "Último",
+        "next": "Próximo",
+        "today": "Hoy",
+        "yesterday": "Ayer",
+        "tomorrow": "Mañana",
+        "days": {
+            "sunday": "Domingo",
+            "monday": "Lunes",
+            "tuesday": "Martes",
+            "wednesday": "Miércoles",
+            "thursday": "Jueves",
+            "friday": "Viernes",
+            "saturday": "Sábado"
+        },
+        "weeks": {
+            "1": "Lunes",
+            "2": "Martes",
+            "3": "Miércoles",
+            "4": "Jueves",
+            "5": "Viernes",
+            "6": "Sábado",
+            "7": "Domingo"
+        },
+        "months": {
+            "january": "Enero",
+            "february": "Febrero",
+            "march": "Marzo",
+            "april": "Abril",
+            "may": "Mayo",
+            "june": "Junio",
+            "july": "Julio",
+            "august": "Agosto",
+            "september": "Septiembre",
+            "october": "Octubre",
+            "november": "Noviembre",
+            "december": "Diciembre"
+        }
+    },
+    "errors": {
+        "buttonAccept": "Aceptar",
+        "buttonCancel": "Cancelar",
+        "buttonRetry": "Intentar nuevamente",
+        "onButtonClose": "Ir a inicio de sesión",
+        "connection": {
+            "title": "¡Error de conexión!",
+            "message": "Verifica tu conexión a internet e intenta de nuevo."
+        },
+        "server": {
+            "title": "¡Error de servidor!",
+            "message": "Ocurrió un error en el servidor, intenta de nuevo más tarde."
+        },
+        "unknown": {
+            "title": "¡Error desconocido!",
+            "message": "Ocurrió un error desconocido, intenta de nuevo más tarde."
+        },
+        "empty": {
+            "title": "¡Error!",
+            "message": "No hay datos disponibles."
+        },
+        "location": {
+            "title": "¡Error de ubicación!",
+            "message": "No se pudo obtener tu ubicación, verifica que el GPS este activado."
+        },
+        "permission": {
+            "error": "Error al cargar la imagen",
+            "title": "¡Error de permisos!",
+            "message": "No se pudo obtener los permisos necesarios, intenta de nuevo.",
+            "messagePhoto": "Permite el acceso a la camara para poder tomar fotos o galeria, dirijete a ajustes para activar los permisos ya continuar con el proceso.",
+            "messageFile": "Permite el acceso a los archivos para poder seleccionar una imagen, dirijete a ajustes para activar los permisos ya continuar con el proceso.",
+            "messageLocation": "Necesitas activar los permisos de ubicación"
+        }
+    },
+    "language": {
+        "title": "Selecciona tu idioma",
+        "message": "Selecciona el idioma que deseas utilizar en la aplicación",
+        "name": {
+            "en": "Inglés",
+            "es": "Español",
+            "fr": "Francés"
+        },
+        "buttonCancel": "Cancelar"
+    },
+    "incomeOption": {
+        "title": "¡Te damos la bienvenida a la aplicación!",
+        "login": "Iniciar sesión",
+        "register": "Registrarse"
+    },
+    "validate": {
+        "required": "Campo requerido",
+        "email": "Ingresa tu correo electrónico",
+        "emailFormat": "Ingresa un correo electrónico válido",
+        "password": "Ingresa tu contraseña",
+        "passwordEmpty": "La contraseña no puede estar vacía",
+        "passwordLength": "La contraseña debe tener al menos 6 caracteres",
+        "confirmPassword": "Confirma tu contraseña",
+        "confirmPasswordNotMatch": "Las contraseñas no coinciden"
+    },
+    "generic": {
+        "ups": "¡Ups!",
+        "brilliant": "¡Genial!",
+        "seconds": "Seg",
+        "skip": "Omitir",
+        "continue": "Continuar",
+        "next": "Siguiente",
+        "accept": "Aceptar",
+        "start": "Empezar",
+        "back": "Atrás",
+        "cancel": "Cancelar",
+        "delete": "Eliminar",
+        "onGoSettings": "Ir a configuración",
+        "onAddDocument": "Agregar documento",
+        "onAddLogo": "Agregar logo",
+        "onAddImage": "Agregar imagen",
+        "onRetry": "Intentar de nuevo",
+        "atenction": "¡Atención!",
+        "understood": "Entendido",
+        "onSaveChange": "Guardar cambios",
+        "errors": {
+            "title": "¡Ups!",
+            "message": "Tenemos problemas con el servidor, intenta más tarde",
+            "message2": "Ups! algo salió mal"
+        },
+        "alert": {
+            "deleteImage": {
+                "title": "¿Seguro que desea eliminar la imagen?",
+                "message": "sta acción no se puede deshacer.",
+                "button": "Eliminar"
+            }
+        },
+        "types": {
+            "selectCurrency": "Selecciona tipo moneda"
+        }
+    }
+}
