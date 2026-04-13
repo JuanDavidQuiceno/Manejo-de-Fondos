@@ -1,5 +1,6 @@
 import 'package:dashboard/src/common/navigation/app_routes_private_.dart';
 import 'package:dashboard/src/common/widgets/guards/module_access_guard.dart';
+import 'package:dashboard/src/features/funds/presentation/funds_screen.dart';
 import 'package:dashboard/src/features/home/presentation/screens/home_sections.dart';
 import 'package:dashboard/src/features/home/presentation/screens/home_shell_screen.dart';
 import 'package:dashboard/src/features/home/state/cubit/dash_board_cubit.dart';
@@ -26,10 +27,16 @@ final List<RouteBase> privateRoutes = [
         path: AppRoutesPrivate.rolesManagementPath,
         pageBuilder: (context, state) => const NoTransitionPage(
           child: ModuleAccessGuard(
-            moduleSlug: 'roles', // Se asume el slug 'roles'
+            moduleSlug: 'roles',
             child: RolesManagementScreen(),
           ),
         ),
+      ),
+      GoRoute(
+        name: AppRoutesPrivate.fundsName,
+        path: AppRoutesPrivate.fundsPath,
+        pageBuilder: (context, state) =>
+            const NoTransitionPage(child: FundsScreen()),
       ),
     ],
   ),

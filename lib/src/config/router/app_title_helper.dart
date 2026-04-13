@@ -10,6 +10,8 @@ String getAppTitleFromLocation(String location) {
 
 /// Fallback estático para cuando los módulos dinámicos todavía no se cargaron.
 String _staticRouteTitle(String location) {
+  if (location.startsWith(AppRoutesPrivate.fundsPath)) return 'Fondos BTG';
+  if (location.startsWith(AppRoutesPrivate.rolesManagementPath)) return 'Roles';
   if (location.startsWith(AppRoutesPrivate.homePath)) return 'Inicio';
 
   return 'Admin Panel';

@@ -65,6 +65,12 @@ class _TabletNavigationRail extends StatelessWidget {
       icon: Icons.manage_accounts_outlined,
       selectedIcon: Icons.manage_accounts,
     ),
+    (
+      path: AppRoutesPrivate.fundsPath,
+      label: 'Fondos BTG',
+      icon: Icons.account_balance_outlined,
+      selectedIcon: Icons.account_balance,
+    ),
   ];
 
   int get _selectedIndex {

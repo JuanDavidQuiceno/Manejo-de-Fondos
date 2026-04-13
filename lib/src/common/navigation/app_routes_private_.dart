@@ -8,7 +8,11 @@
 // static const String editProfilePath = 'edit-profile';
 // static const String editProfileName = 'editProfile';
 class AppRoutesPrivate {
-  static const List<String> privatePaths = [homePath, rolesManagementPath];
+  static const List<String> privatePaths = [
+    homePath,
+    rolesManagementPath,
+    fundsPath,
+  ];
 
   // Dashboard Routes
   static const String homeName = 'home';
@@ -16,4 +20,7 @@ class AppRoutesPrivate {
 
   static const String rolesManagementName = 'rolesManagement';
   static const String rolesManagementPath = '/roles-management';
+
+  static const String fundsName = 'funds';
+  static const String fundsPath = '/funds';
 }

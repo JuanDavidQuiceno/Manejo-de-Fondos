@@ -45,6 +45,14 @@ class DashboardDrawer extends StatelessWidget {
             press: () =>
                 _navigateTo(context, AppRoutesPrivate.rolesManagementPath),
           ),
+          DrawerListTile(
+            title: 'Fondos BTG',
+            iconData: Icons.account_balance_outlined,
+            isSelected:
+                location == AppRoutesPrivate.fundsPath ||
+                location.startsWith('${AppRoutesPrivate.fundsPath}/'),
+            press: () => _navigateTo(context, AppRoutesPrivate.fundsPath),
+          ),
         ],
       ),
     );
