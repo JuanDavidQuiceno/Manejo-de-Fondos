@@ -86,8 +86,7 @@ class SplashScreenState extends State<SplashScreen>
       case AuthFinishWithError _:
         context.go(AppRoutesPublic.signInPath);
       case AuthenticatedState _:
-        // El redirect del router ajustará a home, userCompanies o userBranches
-        context.go(AppRoutesPrivate.homePath);
+        context.go(AppRoutesPrivate.fundsPath);
       default:
         context.go(AppRoutesPublic.signInPath);
     }

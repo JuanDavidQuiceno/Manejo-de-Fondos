@@ -54,18 +54,6 @@ class _TabletNavigationRail extends StatelessWidget {
 
   static const _destinations = [
     (
-      path: AppRoutesPrivate.homePath,
-      label: 'Dashboard',
-      icon: Icons.dashboard_outlined,
-      selectedIcon: Icons.dashboard,
-    ),
-    (
-      path: AppRoutesPrivate.rolesManagementPath,
-      label: 'Roles',
-      icon: Icons.manage_accounts_outlined,
-      selectedIcon: Icons.manage_accounts,
-    ),
-    (
       path: AppRoutesPrivate.fundsPath,
       label: 'Fondos BTG',
       icon: Icons.account_balance_outlined,

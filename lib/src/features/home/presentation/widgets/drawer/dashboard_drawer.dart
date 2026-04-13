@@ -31,21 +31,6 @@ class DashboardDrawer extends StatelessWidget {
           const SizedBox(height: 8),
           const Divider(height: 1),
           DrawerListTile(
-            title: 'Dashboard',
-            iconData: Icons.dashboard_outlined,
-            isSelected: location == AppRoutesPrivate.homePath,
-            press: () => _navigateTo(context, AppRoutesPrivate.homePath),
-          ),
-          DrawerListTile(
-            title: 'Roles',
-            iconData: Icons.manage_accounts_outlined,
-            isSelected:
-                location == AppRoutesPrivate.rolesManagementPath ||
-                location.startsWith('${AppRoutesPrivate.rolesManagementPath}/'),
-            press: () =>
-                _navigateTo(context, AppRoutesPrivate.rolesManagementPath),
-          ),
-          DrawerListTile(
             title: 'Fondos BTG',
             iconData: Icons.account_balance_outlined,
             isSelected:

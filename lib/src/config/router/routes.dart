@@ -47,7 +47,7 @@ GoRouter createRouter(
         redirectResult = !isGoingToPublic ? AppRoutesPublic.signInPath : null;
       } else if (isAuthenticated) {
         if (isGoingToPublic || fullPath == '/') {
-          redirectResult = AppRoutesPrivate.homePath;
+          redirectResult = AppRoutesPrivate.fundsPath;
         }
       }
 
