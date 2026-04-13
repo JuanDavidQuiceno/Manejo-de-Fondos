@@ -129,7 +129,10 @@ class MockFundsRepositoryImpl implements FundsRepository {
 
     final refund = fund.subscribedAmount ?? 0;
     _balance += refund;
-    _funds[index] = fund.copyWith(isSubscribed: false);
+    _funds[index] = fund.copyWith(
+      isSubscribed: false,
+      subscribedAmount: null,
+    );
     _transactions.add(
       TransactionModel(
         id: 'tx-${++_txCounter}',
