@@ -1,3 +1,4 @@
+import 'package:dashboard/src/common/services/responsive_content.dart';
 import 'package:dashboard/src/common/widgets/custom_loading.dart';
 import 'package:dashboard/src/common/widgets/dialogs/custom_dialog.dart';
 import 'package:dashboard/src/features/funds/data/repositories/mock_funds_repository_impl.dart';
@@ -100,19 +101,31 @@ class _FundsTab extends StatelessWidget {
           return const Center(child: CircularProgressIndicator());
         }
 
-        return ListView(
-          padding: const EdgeInsets.all(16),
-          children: [
-            FundsBalanceCard(balance: state.balance),
-            const SizedBox(height: 16),
-            ...state.funds.map(
-              (fund) => FundCard(
-                fund: fund,
-                onSubscribe: () => _showSubscribeDialog(context, fund.id),
-                onCancel: () => _showCancelDialog(context, fund.id),
+        final isMobile = Responsive.isMobile(context);
+        final hPadding = isMobile ? 16.0 : 24.0;
+
+        return Center(
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 760),
+            child: ListView(
+              padding: EdgeInsets.symmetric(
+                horizontal: hPadding,
+                vertical: 16,
               ),
+              children: [
+                FundsBalanceCard(balance: state.balance),
+                const SizedBox(height: 16),
+                ...state.funds.map(
+                  (fund) => FundCard(
+                    fund: fund,
+                    onSubscribe: () =>
+                        _showSubscribeDialog(context, fund.id),
+                    onCancel: () => _showCancelDialog(context, fund.id),
+                  ),
+                ),
+              ],
             ),
-          ],
+          ),
         );
       },
     );
